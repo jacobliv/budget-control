@@ -5,7 +5,7 @@ Hello,
   Recently, I have been learning react and react-native for a side-project that I am involved in. While I am not the best with making it look really pretty, I can create a functional front-end without making it look ugly. 
   I also have experience with firebase, beyond the scope of CS260. I have used SQL for CS240 and CS340, and I am willing to learn more about how to optimize it.
 
-  I really like your plan to make it suited for our needs. I can see that as we make it, we might want to generify it to a certain degree, but the best tools are the ones you create for yourself that have all the functionality you desire, and don't includefunctionality that isn't needed. 
+  I really like your plan to make it suited for our needs. I can see that as we make it, we might want to generify it to a certain degree, but the best tools are the ones you create for yourself that have all the functionality you desire, and don't include functionality that isn't needed. 
 
 I look forward to working with you.
 
