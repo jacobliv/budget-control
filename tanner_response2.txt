@@ -1,0 +1,14 @@
+Tanner Norton
+September 18, 2019
+Response to budget-control
+
+I love this idea for the simple reason that I am also looking for a budget service that is simple and customizable. I feel like I can help with my background in Progress OpenEdge database knowledge. I also have been developing an iOS mobile application and have just done my own backend on my own server just a few weeks ago, so I am fresh with all that knowledge which is beneficial.
+
+Business:
+I love how you want to make the service simple and elegant. I think there are some financial options out there that are too complicated and they don’t have what I want. I thnk building something simple and elegant is a great goal. Also, making it free is a bonus in my opinion.
+
+Legal:
+I like that it is free. The legal stuff can get too complicated.
+
+Technical:
+On the relational database side, I also have knowledge with PSQL which is one of the forms he mentioned we can use. It is really simple and easy. If you decide to use that one I have experience and some old cold regarding that database.
