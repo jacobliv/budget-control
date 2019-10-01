@@ -1,0 +1,18 @@
+User(user_id, first_name, last_name, email, username, password, last_login)
+Budget(budget_id, name, user_id, start_date, end_date, total_income, total_expense, description)
+* Foreign key user_id references User
+BudgetItem(item_id, budget_id, category_id, amount)
+* Foreign key budget_id references Budget
+* Foreign key category_id references Category
+Transaction(transaction_id, budget_id, category_id, amount, date, description)
+* Foreign key category_id references Category
+* Foreign key budget_id references Budget
+Category(category_id, user_id, name)
+* Foreign key user_id references User
+
+The User table will hold information related to the users who have signed up for our service.  The attribute last_login will be a timestamp of the last time the user logged in to our service.
+The Budget table holds the overall budget information for the users.  Each budget is associated with one user (although multiple budgets can be connected to the same user).  This table includes a time frame for the budget as well as projected total_income and total_expense amounts.
+The BudgetItem table holds the individual category amounts that are associated with a given budget.  Each budget item is associated with one budget and one category.  The amount attribute is a projected value.
+The Transaction table holds the individual financial transactions for the users.  Each transaction can be linked to one category and one budget.  This allows the service to track how the user is doing on sticking to their budget.  The amount attribute is an actual value.
+The Category table holds the names of the categories defined for the users.  Each category is associated with a user_id – each user will define their own categories.
+
